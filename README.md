@@ -14,7 +14,7 @@ Identificamos los **actores** y sus **funcionalidades principales**:
 #### Actores
 
 - **Administrador**: gestiona equipos, jugadores y torneos.  
-- **Jugador**: pertenece a equipos.  
+- **Jugador**: perteneces a equipos, consultar listas de equipos y jugadores, participar en torneos (si existiese dicha acción).  
 - **Sistema**: interactúa automáticamente con datos (por ejemplo, generar emparejamientos).
 
 #### Funciones principales

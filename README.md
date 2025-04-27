@@ -34,6 +34,26 @@ Identificamos los **actores** y sus **funcionalidades principales**:
 ### Diagrama de Clases
 ![Diagrama de clases](diagrams/clases.png)
 
+## Estructura del Proyecto
+```torneo-esports-uml/ ├── src/
+│ ├── es/empresa/torneo/
+│ │ ├── modelo/
+│ │ ├── control/
+│ │ ├── vista/
+│ │ ├── Main.java
+├── diagrams/
+│ ├── casos-uso.png
+│ ├── clases.png
+├── README.md
+├── .gitignore
+|── LICENSE (opcional)"
+```
+## Instalación y Ejecución
+1. Clonar el repositorio:
+`git clone https://github.com/NoeliaNavas/torneo-esports-uml.git`
+2. Compilar y ejecutar el proyecto:
+`cd src javac es/empresa/torneo/Main.java java es.empresa.torneo.Main`
+
 ## Justificación del diseño
 He tilizado clases de entidad para modelar objetos del dominio (Equipo, Jugador),y una interfaz (GestorEquiposI) para el funcionamiento de la aplicación. He relacionado equipo y jugado con agregacion desde equipo apuntando a jugador ya que si eliminas un equipo el jugador no desaparece.
 
